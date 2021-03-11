@@ -1,0 +1,234 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+img {
+  display: block;
+}
+
+.h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33;
+  text-transform: uppercase;
+}
+
+.ts-11 {
+  font-size: 11px;
+}
+
+.ts-13 {
+  font-size: 13px;
+}
+
+.ts-16 {
+  font-size: 16px;
+}
+
+.ts-24 {
+  font-size: 24px;
+}
+
+.ts-32 {
+  font-size: 32px;
+}
+
+.ts-40 {
+  font-size: 40px;
+}
+
+.ts-48 {
+  font-size: 48px;
+}
+
+.ts-56 {
+  font-size: 56px;
+}
+
+.ts-64 {
+  font-size: 64px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.container {
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-w-wrap {
+  flex-wrap: wrap;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.no-link-decoration {
+  text-decoration: none;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.mt-25 {
+  margin-top: 25px;
+}
+
+.mr-16 {
+  margin-right: 16px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.mb-17 {
+  margin-bottom: 17px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.pt-225 {
+  padding-top: 225px;
+}
+
+.pb-200 {
+  padding-bottom: 200px;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.color-gray {
+  color: #e0e0e0;
+}
+
+.color-d-gray {
+  color: #cacaca;
+}
+
+.bg-black {
+  background-color: #08020d;
+}
+
+.bg-dark {
+  background-color: #3c3b3d;
+}
+
+.bg-banner-artist {
+  position: relative;
+}
+
+.bg-banner-artist::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background-image: url("../images/Morten Harket.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  content: "";
+}
+
+.btn {
+  padding: 21px 30px;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.logo .logo-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.logo .logo-title {
+  height: 13px;
+  font-size: 11px;
+  line-height: 1;
+}
+
+.menu {
+  font-size: 11px;
+  line-height: 13px;
+  font-weight: bold;
+}
+
+.menu .menu-item {
+  height: 13px;
+}
+
+.search-form {
+  width: 100%;
+}
+
+.input-search {
+  display: flex;
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 50px;
+  border: none;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,82 @@
+body {
+  font-family: $main-font;
+  color: $color-white;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.container {
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-w-wrap {
+  flex-wrap: wrap;
+}
+
+.align-center {
+align-items: center;
+}
+
+.no-link-decoration {
+  text-decoration: none;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+// MARGINS
+.mt-25 {
+  margin-top: 25px;
+}
+
+.mr-16 {
+  margin-right: 16px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.mb-17 {
+  margin-bottom: 17px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+// PADDINGS
+.pt-225 {
+  padding-top: 225px;
+}
+
+.pb-200 {
+  padding-bottom: 200px;
+}
+// COLORS
+.color-white {
+  color: $color-white;
+}
+
+.color-gray {
+  color: $color-gray;
+}
+
+.color-d-gray {
+  color: $color-dark-gray;
+}
+
+// BACKGROUNDS
+.bg-black {
+  background-color: $color-black;
+}
+
+.bg-dark {
+background-color: $color-dark;
+}

@@ -1,0 +1,29 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.logo {
+  font-weight: bold;
+
+  & .logo-icon {
+    width: 24px;
+    height: 24px;
+  }
+  & .logo-title {
+    height: 13px;
+    font-size: 11px;
+    line-height: 1;
+  }
+}
+
+.menu {
+  font-size: 11px;
+  line-height: 13px;
+  font-weight: bold;
+  & .menu-item {
+    height: 13px;
+  }
+}
