@@ -10,6 +10,10 @@ body {
   margin: 0 auto;
 }
 
+.min-width-200 {
+  min-width: 200px;
+}
+
 .d-flex {
   display: flex;
 }
@@ -34,7 +38,7 @@ align-items: center;
   text-transform: uppercase;
 }
 
-.decor-footer-line {
+.border-top-1 {
   border: 1px solid $color-gray;
 }
 // MARGINS
