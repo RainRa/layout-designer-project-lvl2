@@ -98,6 +98,10 @@ body {
   margin: 0 auto;
 }
 
+.min-width-200 {
+  min-width: 200px;
+}
+
 .d-flex {
   display: flex;
 }
@@ -122,7 +126,7 @@ body {
   text-transform: uppercase;
 }
 
-.decor-footer-line {
+.border-top-1 {
   border: 1px solid #e0e0e0;
 }
 
@@ -214,6 +218,18 @@ body {
 
 .btn {
   padding: 21px 30px;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-purple {
+  background-color: #5328a1;
+}
+
+.btn-red {
+  background-color: #95390c;
 }
 
 .header {
