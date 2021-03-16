@@ -46,16 +46,11 @@ img {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.33;
-  text-transform: uppercase;
+  line-height: 1.5;
 }
 
-.ts-11 {
-  font-size: 11px;
-}
-
-.ts-13 {
-  font-size: 13px;
+.ts-small {
+  font-size: 12.8px;
 }
 
 .ts-16 {
@@ -98,8 +93,16 @@ body {
   margin: 0 auto;
 }
 
+.w-100 {
+  width: 100%;
+}
+
 .min-width-200 {
   min-width: 200px;
+}
+
+.ml-auto {
+  margin-left: auto;
 }
 
 .d-flex {
@@ -112,6 +115,10 @@ body {
 
 .flex-column {
   flex-direction: column;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
 }
 
 .align-center {
@@ -138,6 +145,10 @@ body {
   margin-right: 16px;
 }
 
+.mr-49 {
+  margin-right: 49px;
+}
+
 .mr-24 {
   margin-right: 24px;
 }
@@ -150,8 +161,8 @@ body {
   margin-bottom: 21px;
 }
 
-.mb-24 {
-  margin-bottom: 24px;
+.mb-25 {
+  margin-bottom: 25px;
 }
 
 .mb-30 {
@@ -168,6 +179,10 @@ body {
 
 .pb-50 {
   padding-bottom: 50px;
+}
+
+.pt-100 {
+  padding-top: 100px;
 }
 
 .pt-225 {
@@ -282,5 +297,13 @@ body {
   padding: 5px 10px;
   border-radius: 50px;
   border: none;
+}
+
+.small-cover {
+  width: 55px;
+}
+
+.big-cover {
+  width: 137px;
 }
 /*# sourceMappingURL=style.css.map */
