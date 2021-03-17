@@ -38,8 +38,12 @@ body {
   flex-grow: 1;
 }
 
-.align-center {
+.align-items-center {
 align-items: center;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .no-link-decoration {
@@ -92,6 +96,10 @@ align-items: center;
 
 .mb-50 {
   margin-bottom: 50px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
 }
 
 // PADDINGS

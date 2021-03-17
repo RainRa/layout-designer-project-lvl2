@@ -121,8 +121,12 @@ body {
   flex-grow: 1;
 }
 
-.align-center {
+.align-items-center {
   align-items: center;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .no-link-decoration {
@@ -171,6 +175,10 @@ body {
 
 .mb-50 {
   margin-bottom: 50px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
 }
 
 .pt-40 {
