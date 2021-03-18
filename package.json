@@ -7,9 +7,9 @@
     "url": "https://github.com/hexlet-boilerplates/html-boilerplate.git"
   },
   "scripts": {
-		"lint": "npx stylelint **/*.css",
-		"hlint": "npx htmlhint ./src/*.html"
-	},
+    "lint": "npx stylelint **/*.css",
+    "hlint": "npx htmlhint ./src/*.html"
+  },
   "main": "",
   "dependencies": {},
   "devDependencies": {
@@ -20,7 +20,6 @@
     "stylelint-order": "^4.1.0",
     "surge": "^0.21.7"
   },
-
   "author": "Nikita Mikhaylov",
   "license": "ISC"
 }

@@ -3,42 +3,48 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=devise-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="css/style.css" type="text/css">
 
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
-
   <title>Проект:"Music Box" by Rain-ra</title>
+
 </head>
 
 <body>
 
   <!-- HEADER -->
-  <header>
-    <div class="container">
-      <img src="./images/logo.svg" alt="Логотип — Графическое изображение ноты в круге">
-      <p>Music Box</p>
+  <header class="mt-25 header">
+    <div class="container uppercase">
+
+      <div class="logo mb-17 d-flex align-center">
+        <img class="logo-icon mr-16" src="./images/logo.svg" alt="Логотип — нота в круге">
+        <span class="logo-title">music box</span>
+      </div>
 
       <!-- NAV -->
-      <nav>
+      <nav class="menu mb-17">
         <ul>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
+          <li><a class="ts-16 color-gray color-d-gray no-link-decoration" href="#">Главная</a></li>
+          <li><a class="ts-16 color-gray color-d-gray no-link-decoration" href="#">Каталог</a></li>
+          <li><a class="ts-16 color-gray color-d-gray no-link-decoration" href="#">Исполнители</a></li>
+          <li><a class="ts-16 color-gray color-d-gray no-link-decoration" href="#">Контакты</a></li>
         </ul>
       </nav>
 
       <!-- SEARCH BOX  -->
-      <form action="">
-        <input type="text" placeholder="ПОИСК..." class="">
-        <!-- <button></button> Прозрачная иконка -->
-      </form>
+      <div class="search-form">
+        <form action="">
+          <input class="input-search bg-dark uppercase" type="text" placeholder="ПОИСК...">
+          <!-- <button></button> Прозрачная иконка -->
+        </form>
+      </div>
     </div>
   </header>
-
   <!-- ACCES FORM -->
   <section>
     <div class="container">
@@ -63,7 +69,15 @@
         <!-- SUBSCRIPTION FORMS -->
         <h2>Формы подписки</h2>
         <ul>
-          <li></li>
+          <li>
+            <h3></h3>
+            <div>
+              <p></p>
+              <p></p>
+            </div>
+            <button></button>
+            <p></p>
+          </li>
           <li></li>
           <li></li>
         </ul>
