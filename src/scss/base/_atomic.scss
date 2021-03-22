@@ -42,6 +42,10 @@ body {
 align-items: center;
 }
 
+.align-vertical-super {
+  vertical-align: super;
+}
+
 .align-txt-center {
   text-align: center;
 }
@@ -94,17 +98,33 @@ align-items: center;
   margin-bottom: 30px;
 }
 
+.mb-40 {
+  margin-bottom: 40px;
+}
+
 .mb-50 {
   margin-bottom: 50px;
+}
+
+.mb-65 {
+  margin-bottom: 65px;
 }
 
 .mb-100 {
   margin-bottom: 100px;
 }
 
+.mb-200 {
+  margin-bottom: 200px;
+}
+
 // PADDINGS
 .pt-40 {
   padding-top: 40px;
+}
+
+.pb-25 {
+  padding-bottom: 15px;
 }
 
 .pb-50 {
@@ -122,6 +142,7 @@ align-items: center;
 .pb-200 {
   padding-bottom: 200px;
 }
+
 // COLORS
 .color-white {
   color: $color-white;
