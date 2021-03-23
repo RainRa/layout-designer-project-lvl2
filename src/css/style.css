@@ -83,6 +83,76 @@ img {
   font-size: 64px;
 }
 
+.bg-banner-artist {
+  position: relative;
+}
+
+.bg-banner-artist::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background-image: url("../images/Morten Harket.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  content: "";
+}
+
+.bg-banner-acces {
+  position: relative;
+}
+
+.bg-banner-acces::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background-image: url("../images/banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  content: "";
+}
+
+.btn {
+  padding: 21px 30px;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-purple {
+  background-color: #5328a1;
+}
+
+.btn-red {
+  background-color: #95390c;
+}
+
+.btn-green {
+  background-color: #32c176;
+}
+
+.btn-transparent {
+  background-color: transparent;
+}
+
+.btn-news {
+  border: 1px solid #cacaca;
+  color: #cacaca;
+}
+
+.btn-form {
+  border: 1px solid #FFFFFF;
+  color: #fff;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #fff;
@@ -192,6 +262,10 @@ body {
   margin-bottom: 65px;
 }
 
+.mb-80 {
+  margin-bottom: 80px;
+}
+
 .mb-100 {
   margin-bottom: 100px;
 }
@@ -210,6 +284,10 @@ body {
 
 .pb-50 {
   padding-bottom: 50px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
 }
 
 .pt-100 {
@@ -236,74 +314,16 @@ body {
   color: #cacaca;
 }
 
+.color-orange {
+  color: #f89202;
+}
+
 .bg-black {
   background-color: #08020d;
 }
 
 .bg-dark {
   background-color: #3c3b3d;
-}
-
-.bg-banner-artist {
-  position: relative;
-}
-
-.bg-banner-artist::before {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
-  background-image: url("../images/Morten Harket.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  content: "";
-}
-
-.bg-banner-acces {
-  position: relative;
-}
-
-.bg-banner-acces::before {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
-  background-image: url("../images/banner.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  content: "";
-}
-
-.btn {
-  padding: 21px 30px;
-  border-radius: 5px;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-}
-
-.btn-purple {
-  background-color: #5328a1;
-}
-
-.btn-red {
-  background-color: #95390c;
-}
-
-.btn-green {
-  background-color: #32c176;
-}
-
-.btn-transparent {
-  color: #fff;
-  background-color: transparent;
-  border: 1px solid #FFFFFF;
 }
 
 .header {
@@ -332,10 +352,11 @@ body {
   font-size: 11px;
   line-height: 13px;
   font-weight: bold;
+  cursor: pointer;
 }
 
-.menu .menu-item {
-  height: 13px;
+.menu a:hover {
+  color: #fff;
 }
 
 .footer-nav {

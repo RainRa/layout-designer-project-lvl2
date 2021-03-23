@@ -111,6 +111,10 @@ align-items: center;
   margin-bottom: 65px;
 }
 
+.mb-80 {
+  margin-bottom: 80px;
+}
+
 .mb-100 {
   margin-bottom: 100px;
 }
@@ -130,6 +134,10 @@ align-items: center;
 
 .pb-50 {
   padding-bottom: 50px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
 }
 
 .pt-100 {
@@ -155,6 +163,10 @@ align-items: center;
 
 .color-d-gray {
   color: $color-dark-gray;
+}
+
+.color-orange {
+  color: $color-orange;
 }
 
 // BACKGROUNDS

@@ -20,7 +20,15 @@
 }
 
 .btn-transparent {
-  color: $color-white;
   background-color: transparent;
+}
+
+.btn-news {
+  border: 1px solid #cacaca;
+  color: $color-dark-gray;
+}
+
+.btn-form {
   border: 1px solid #FFFFFF;
+  color: $color-white;
 }
