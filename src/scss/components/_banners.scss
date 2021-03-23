@@ -1,8 +1,6 @@
 .bg-banner-artist {
   position: relative;
-}
-
-.bg-banner-artist::before {
+  &::before {
   position: absolute;
   top: 0;
   right: 0;
@@ -16,5 +14,24 @@
   background-size: cover;
 
   content: "";
+  }
 }
 
+.bg-banner-acces {
+  position: relative;
+  &::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+
+  background-image: url("../images/banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  content: "";
+  }
+}

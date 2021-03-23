@@ -7,17 +7,20 @@
   cursor: pointer;
 }
 
-.btn-transparent {
-  color: $color-white;
-  background-color: transparent;
-  border: 1px solid #FFFFFF;
-  border-radius: 5px;
-}
-
 .btn-purple {
   background-color: $color-purple;
 }
 
 .btn-red {
   background-color: $color-red;
+}
+
+.btn-green {
+  background-color: $color-green;
+}
+
+.btn-transparent {
+  color: $color-white;
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
 }
