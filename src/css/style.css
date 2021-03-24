@@ -349,10 +349,12 @@ body {
 }
 
 .menu {
+  position: relative;
   font-size: 11px;
   line-height: 13px;
   font-weight: bold;
   cursor: pointer;
+  z-index: 1;
 }
 
 .menu a:hover {
