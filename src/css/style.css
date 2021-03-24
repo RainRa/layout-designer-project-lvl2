@@ -153,6 +153,11 @@ img {
   color: #fff;
 }
 
+.btn-round {
+  border-radius: 32px;
+  padding: 17px 40px;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #fff;
