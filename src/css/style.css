@@ -219,6 +219,10 @@ body {
   text-transform: uppercase;
 }
 
+.font-w-400 {
+  font-weight: 400;
+}
+
 .border-top-1 {
   border: 1px solid #e0e0e0;
 }
@@ -376,6 +380,7 @@ body {
 
 .search-form {
   width: 100%;
+  z-index: 1;
 }
 
 .input-search {
