@@ -1,0 +1,22 @@
+.acces-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 374px;
+  margin: 0 auto;
+
+  @include for-tablet-up {
+    max-width: 570px;
+  }
+
+  & .acces-input {
+    width: 100%;
+    margin-bottom: 24px;
+
+    @include for-tablet-up {
+      max-width: 270px;
+    }
+  }
+}

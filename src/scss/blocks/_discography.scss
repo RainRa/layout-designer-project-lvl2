@@ -1,3 +1,7 @@
 .big-cover {
   width: 137px;
+
+  @include for-dekstop-up {
+    width: 250px;
+  }
 }

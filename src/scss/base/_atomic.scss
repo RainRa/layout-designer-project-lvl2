@@ -7,8 +7,37 @@ body {
 
 .container {
   width: 100%;
+  max-width: 1240px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.row-adaptive {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  @include for-tablet-up {
+    flex-direction: row;
+    margin: 0 -25px;
+  }
+}
+
+.col-2 {
+  display: flex;
+  // display: flex;
+  // flex: 1 1 50%;
+  // padding-right: 25px;
+
+  @include for-tablet-up {
+    flex: 1 1 50%;
+    padding: 0 25px;
+  }
+}
+
+.col-4 {
+  flex: 1 1 0;
+  padding: 0 15px;
 }
 
 .w-100 {
@@ -27,6 +56,14 @@ body {
   display: flex;
 }
 
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
 .flex-w-wrap {
   flex-wrap: wrap;
 }
@@ -37,6 +74,10 @@ body {
 
 .flex-grow-1 {
   flex-grow: 1;
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
 }
 
 .align-items-center {
@@ -59,6 +100,10 @@ body {
   text-transform: uppercase;
 }
 
+.text-nowrap {
+  white-space: nowrap;
+}
+
 .font-w-400 {
   font-weight: 400;
 }
@@ -69,6 +114,10 @@ body {
 // MARGINS
 .mt-25 {
   margin-top: 25px;
+}
+
+.mr-15 {
+  margin-right: 15px;
 }
 
 .mr-16 {
@@ -87,16 +136,20 @@ body {
   margin-right: 24px;
 }
 
-.mb-17 {
-  margin-bottom: 17px;
+.mb-16 {
+  margin-bottom: 16px;
 }
 
 .mb-21 {
   margin-bottom: 21px;
 }
 
-.mb-25 {
-  margin-bottom: 25px;
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
 }
 
 .mb-30 {
@@ -132,6 +185,14 @@ body {
   padding-top: 40px;
 }
 
+.pr-50-adaptive {
+  padding-right: 0;
+
+  @include for-tablet-up {
+    padding-right: 50px;
+  }
+}
+
 .pb-25 {
   padding-bottom: 15px;
 }
@@ -142,6 +203,10 @@ body {
 
 .pb-100 {
   padding-bottom: 100px;
+}
+
+.pt-25 {
+  padding-top: 25px;
 }
 
 .pt-100 {

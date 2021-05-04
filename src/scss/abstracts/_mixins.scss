@@ -1,0 +1,19 @@
+
+
+@mixin for-tablet-up { /*  tablets, Ipad, e-readear, landscape 800x480 phones */
+  @media (min-width: 640px) {
+    @content;
+  }
+}
+
+@mixin for-dekstop-up {
+  @media (min-width: 1240px) {
+    @content;
+  }
+}
+
+@mixin header-adaptive-margins {
+  @media (min-width: 700px) {
+    @content;
+  }
+}

@@ -17,27 +17,27 @@
 
 <body class="bg-black">
 
+  <header class="pt-25 header">
   <!-- HEADER -->
-  <header class="mt-25 header">
-    <div class="container uppercase">
+    <div class="container d-flex align-items-center flex-w-wrap uppercase">
 
-      <div class="logo mb-17 d-flex align-items-center">
+      <div class="logo w-100 mb-16 d-flex align-items-center">
         <img class="logo-icon mr-16" src="./images/logo.svg" alt="Логотип — нота в круге">
         <span class="logo-title">music box</span>
       </div>
 
       <!-- NAV -->
-      <nav class="menu mb-17">
-        <ul>
-          <li><a class="ts-16 color-d-gray no-link-decoration" href="#">Главная</a></li>
-          <li><a class="ts-16 color-d-gray no-link-decoration" href="#">Каталог</a></li>
-          <li><a class="ts-16 color-d-gray no-link-decoration" href="#">Исполнители</a></li>
-          <li><a class="ts-16 color-d-gray no-link-decoration" href="#">Контакты</a></li>
+      <nav class="nav">
+        <ul class="menu d-flex flex-w-wrap">
+          <li class="menu-item"><a class="color-d-gray no-link-decoration" href="#">Главная</a></li>
+          <li class="menu-item"><a class="color-d-gray no-link-decoration" href="#">Каталог</a></li>
+          <li class="menu-item"><a class="color-d-gray no-link-decoration" href="#">Исполнители</a></li>
+          <li class="menu-item"><a class="color-d-gray no-link-decoration" href="#">Контакты</a></li>
         </ul>
       </nav>
 
       <!-- SEARCH BOX  -->
-      <div class="search-form">
+      <div class="search">
         <form action="">
           <input class="input-search bg-dark uppercase" type="text" placeholder="ПОИСК...">
           <!-- <button></button> Прозрачная иконка -->
@@ -48,10 +48,10 @@
   <!-- BANNER ARTIST  -->
   <section id="page-description" class="bg-banner-artist">
     <div class="container pt-225 pb-200">
-      <h1 class="h1 mb-17">Morten Harket</h1>
+      <h1 class="h1 mb-16">Morten Harket</h1>
       <p class="ts-16 mb-50">24 875 поклонников</p>
-      <div class="container d-flex flex-w-wrap">
-        <button class="mb-25 min-width-200 btn d-flex align-items-center uppercase btn-purple">
+      <div class="d-flex flex-w-wrap">
+        <button class="mb-24 mr-24 min-width-200 btn d-flex align-items-center uppercase btn-purple">
           <!-- <?xml version="1.0" encoding="iso-8859-1"?> -->
           <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
           <svg class="mr-16" width=20px version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
@@ -73,7 +73,7 @@
           </svg>
           <p class="ts-small uppercase">Микс</p>
         </button>
-        <button class="btn min-width-200 d-flex align-items-center uppercase btn-red">
+        <button class="mb-24 btn min-width-200 d-flex align-items-center uppercase btn-red">
           <svg class="mr-16" width=20px style="fill:white" viewBox="0 -28 512.001 512" xmlns="http://www.w3.org/2000/svg">
             <path
               d="m256 455.515625c-7.289062 0-14.316406-2.640625-19.792969-7.4375-20.683593-18.085937-40.625-35.082031-58.21875-50.074219l-.089843-.078125c-51.582032-43.957031-96.125-81.917969-127.117188-119.3125-34.644531-41.804687-50.78125-81.441406-50.78125-124.742187 0-42.070313 14.425781-80.882813 40.617188-109.292969 26.503906-28.746094 62.871093-44.578125 102.414062-44.578125 29.554688 0 56.621094 9.34375 80.445312 27.769531 12.023438 9.300781 22.921876 20.683594 32.523438 33.960938 9.605469-13.277344 20.5-24.660157 32.527344-33.960938 23.824218-18.425781 50.890625-27.769531 80.445312-27.769531 39.539063 0 75.910156 15.832031 102.414063 44.578125 26.191406 28.410156 40.613281 67.222656 40.613281 109.292969 0 43.300781-16.132812 82.9375-50.777344 124.738281-30.992187 37.398437-75.53125 75.355469-127.105468 119.308594-17.625 15.015625-37.597657 32.039062-58.328126 50.167969-5.472656 4.789062-12.503906 7.429687-19.789062 7.429687zm-112.96875-425.523437c-31.066406 0-59.605469 12.398437-80.367188 34.914062-21.070312 22.855469-32.675781 54.449219-32.675781 88.964844 0 36.417968 13.535157 68.988281 43.882813 105.605468 29.332031 35.394532 72.960937 72.574219 123.476562 115.625l.09375.078126c17.660156 15.050781 37.679688 32.113281 58.515625 50.332031 20.960938-18.253907 41.011719-35.34375 58.707031-50.417969 50.511719-43.050781 94.136719-80.222656 123.46875-115.617188 30.34375-36.617187 43.878907-69.1875 43.878907-105.605468 0-34.515625-11.605469-66.109375-32.675781-88.964844-20.757813-22.515625-49.300782-34.914062-80.363282-34.914062-22.757812 0-43.652344 7.234374-62.101562 21.5-16.441406 12.71875-27.894532 28.796874-34.609375 40.046874-3.453125 5.785157-9.53125 9.238282-16.261719 9.238282s-12.808594-3.453125-16.261719-9.238282c-6.710937-11.25-18.164062-27.328124-34.609375-40.046874-18.449218-14.265626-39.34375-21.5-62.097656-21.5zm0 0" />
@@ -90,8 +90,8 @@
     <section id="page-popular-track" class="pt-100">
       <div class="container">
         <h2 class="mb-50 h2 uppercase">Популярные треки</h2>
-        <ul class="d-flex flex-w-wrap">
-          <li class="w-100 d-flex mb-25 align-items-center">
+        <ul class="row-adaptive">
+          <li class="pr-50-adaptive col-2 w-100 mb-24 align-items-center">
             <img class="small-cover mr-16" src="./images/Wild Seed.png" alt="">
             <div>
               <h3 class="ts-small uppercase">Spanish Step</h3>
@@ -99,7 +99,7 @@
             </div>
             <p class="ml-auto ts-small color-gray">4:07</p>
           </li>
-          <li class="w-100 d-flex mb-25 align-items-center">
+          <li class="col-2 w-100 mb-24 align-items-center">
             <img class="small-cover mr-16" src="./images/Letter from Egypt.png" alt="">
             <div>
               <h3 class="ts-small uppercase">With you - with me</h3>
@@ -107,7 +107,7 @@
             </div>
             <p class="ml-auto ts-small color-gray">3:48</p>
           </li>
-          <li class="w-100 d-flex mb-25 align-items-center">
+          <li class="pr-50-adaptive col-2 w-100 mb-24 align-items-center">
             <img class="small-cover mr-16" src="./images/Brother.png" alt="">
             <div>
               <h3 class="ts-small uppercase">Brother</h3>
@@ -115,7 +115,7 @@
             </div>
             <p class="ml-auto ts-small color-gray">5:05</p>
           </li>
-          <li class="w-100 d-flex mb-25 align-items-center">
+          <li class="col-2 w-100 mb-24 align-items-center">
             <img class="small-cover mr-16" src="./images/Wild Seed.png" alt="">
             <div>
               <h3 class="ts-small uppercase">Brodsky tune</h3>
@@ -123,7 +123,7 @@
             </div>
             <p class="ml-auto ts-small color-gray">4:24</p>
           </li>
-          <li class="w-100 d-flex mb-25 align-items-center">
+          <li class="pr-50-adaptive col-2 w-100 mb-24 align-items-center">
             <img class="small-cover mr-16" src="./images/Letter from Egypt.png" alt="">
             <div>
               <h3 class="ts-small ">Darkspace</h3>
@@ -131,7 +131,7 @@
             </div>
             <p class="ml-auto ts-small color-gray">3:45</p>
           </li>
-          <li class="w-100 d-flex mb-25 align-items-center">
+          <li class="col-2 w-100 mb-24 align-items-center">
             <img class="small-cover mr-16" src="./images/Out of My Hands.png" alt="">
             <div>
               <h3 class="ts-small uppercase">Burn money burn</h3>
@@ -148,33 +148,33 @@
       <div class="container">
         <h2 class="mb-50 h2 uppercase">Дискография</h2>
         <ul class="d-flex flex-w-wrap">
-          <li class="mr-49 mb-25">
+          <li class="mr-49 mb-24">
             <img class="big-cover" src="./images/Brother.png" alt="">
             <h3 class="h4">Brother</h3>
             <p class="ts-16 color-gray">2014</p>
           </li>
-          <li class="mr-49 mb-25">
-            <img class="big-cover mb-17" src="./images/Out of My Hands.png" alt="">
+          <li class="mr-49 mb-24">
+            <img class="big-cover mb-16" src="./images/Out of My Hands.png" alt="">
             <h3 class="h4">Out Of My Hands</h3>
             <p class="ts-16 color-gray">2012</p>
           </li>
-          <li class="mr-49 mb-25">
-            <img class="big-cover mb-17" src="./images/Letter from Egypt.png" alt="">
+          <li class="mr-49 mb-24">
+            <img class="big-cover mb-16" src="./images/Letter from Egypt.png" alt="">
             <h3 class="h4">Letter From<br> Egypt</h3>
             <p class="ts-16 color-gray">2008</p>
           </li>
-          <li class="mr-49 mb-25">
-            <img class="big-cover mb-17" src="./images/Vogts Villa.png" alt="">
+          <li class="mr-49 mb-24">
+            <img class="big-cover mb-16" src="./images/Vogts Villa.png" alt="">
             <h3 class="h4">Vogts Vills</h3>
             <p class="ts-16 color-gray">1996</p>
           </li>
-          <li class="mr-49 mb-25">
-            <img class="big-cover mb-17" src="./images/Wild Seed.png" alt="">
+          <li class="mr-49 mb-24">
+            <img class="big-cover mb-16" src="./images/Wild Seed.png" alt="">
             <h3 class="h4">Wild Seed</h3>
             <p class="ts-16 color-gray">1995</p>
           </li>
-          <li class="mr-49 mb-25">
-            <img class="big-cover mb-17" src="./images/Poetenes Evangelium.png" alt="">
+          <li class="mr-49 mb-24">
+            <img class="big-cover mb-16" src="./images/Poetenes Evangelium.png" alt="">
             <h3 class="h4">Poetenes<br> Evangelium</h3>
             <p class="ts-16 color-gray">1993</p>
           </li>
@@ -186,50 +186,50 @@
       <div class="container">
         <h2 class="mb-50 h2 uppercase">Похожие исполнители</h2>
         <ul class="d-flex flex-w-wrap">
-          <li class="mr-49 mb-25 align-txt-center">
-            <img class="big-cover mb-17" src="./images/A-ha.png" alt="">
+          <li class="mr-49 mb-24 align-txt-center">
+            <img class="big-cover mb-16" src="./images/A-ha.png" alt="">
             <h3 class="h4">A-Ha</h3>
             <p class="ts-16 color-gray">417 086 <br>
               поклонников</p>
           </li>
-          <li class="mr-49 mb-25 align-txt-center">
-            <img class="big-cover mb-17" src="./images/Tears for Fears.png" alt="">
+          <li class="mr-49 mb-24 align-txt-center">
+            <img class="big-cover mb-16" src="./images/Tears for Fears.png" alt="">
             <h3 class="h4">Tears For Fears</h3>
             <p class="ts-16 color-gray">434 086 <br>
               поклонников</p>
           </li>
-          <li class="mr-49 mb-25 align-txt-center">
-            <img class="big-cover mb-17" src="./images/Duran Duran.png" alt="">
+          <li class="mr-49 mb-24 align-txt-center">
+            <img class="big-cover mb-16" src="./images/Duran Duran.png" alt="">
             <h3 class="h4">Duran Duran</h3>
             <p class="ts-16 color-gray">631 071 <br>
               поклонник</p>
           </li>
-          <li class="mr-49 mb-25 align-txt-center">
-            <img class="big-cover mb-17" src="./images/Jack Savoretti.png" alt="">
+          <li class="mr-49 mb-24 align-txt-center">
+            <img class="big-cover mb-16" src="./images/Jack Savoretti.png" alt="">
             <h3 class="h4">Jack Savoretti</h3>
             <p class="ts-16 color-gray">26857 <br>
               поклонников</p>
           </li>
-          <li class="mr-49 mb-25 align-txt-center">
-            <img class="big-cover mb-17" src="./images/Keane.png" alt="">
+          <li class="mr-49 mb-24 align-txt-center">
+            <img class="big-cover mb-16" src="./images/Keane.png" alt="">
             <h3 class="h4">Keane</h3>
             <p class="ts-16 color-gray">1 704 358 <br>
               поклонников</p>
           </li>
-          <li class="mr-49 mb-25 align-txt-center">
-            <img class="big-cover mb-17" src="./images/Frank Sinatra.png" alt="">
+          <li class="mr-49 mb-24 align-txt-center">
+            <img class="big-cover mb-16" src="./images/Frank Sinatra.png" alt="">
             <h3 class="h4">Frank Sinatra</h3>
             <p class="ts-16 color-gray">1 653 882 <br>
               поклонника</p>
           </li>
-          <li class="mr-49 mb-25 align-txt-center">
-            <img class="big-cover mb-17" src="./images/Paul Young.png" alt="">
-            <h3 class="h4">Paul Young.png</h3>
+          <li class="mr-49 mb-24 align-txt-center">
+            <img class="big-cover mb-16" src="./images/Paul Young.png" alt="">
+            <h3 class="h4">Paul Young</h3>
             <p class="ts-16 color-gray">50 329 <br>
               поклонников</p>
           </li>
-          <li class="mr-49 mb-25 align-txt-center">
-            <img class="big-cover mb-17" src="./images/Chris Rea.png" alt="">
+          <li class="mr-49 mb-24 align-txt-center">
+            <img class="big-cover mb-16" src="./images/Chris Rea.png" alt="">
             <h3 class="h4">Chris Rea </h3>
             <p class="ts-16 color-gray">73 351 <br>
               поклонник</p>
@@ -242,35 +242,35 @@
   <footer class="bg-gradient">
     <div class="container">
       <nav class="footer-nav">
-        <ul class="d-flex flex-column">
-          <li class="mb-30">
-            <h2 class="h2 mb-17 uppercase">О нас</h2>
+        <ul class="row-adaptive">
+          <li class="col-4 mb-30">
+            <h2 class="h4 mb-16 uppercase">О нас</h2>
             <ul>
-              <li><a class="ts-16 color-gray no-link-decoration" href="">История компании</a></li>
-              <li><a class="ts-16 color-gray no-link-decoration" href="">Карьера</a></li>
-              <li><a class="ts-16 color-gray no-link-decoration" href="">Особенности</a></li>
-              <li><a class="ts-16 color-gray no-link-decoration" href="">Пресса</a></li>
+              <li><a class="text-nowrap ts-16 color-gray no-link-decoration" href="">История компании</a></li>
+              <li><a class="text-nowrap ts-16 color-gray no-link-decoration" href="">Карьера</a></li>
+              <li><a class="text-nowrap ts-16 color-gray no-link-decoration" href="">Особенности</a></li>
+              <li><a class="text-nowrap ts-16 color-gray no-link-decoration" href="">Пресса</a></li>
             </ul>
           </li>
-          <li class="mb-30">
-            <h2 class="h2 mb-17 uppercase">Поддержка</h2>
+          <li class="col-4 mb-30">
+            <h2 class="h4 mb-16 uppercase">Поддержка</h2>
             <ul>
-              <li><a class="ts-16 color-gray no-link-decoration" href="">База знаний</a></li>
-              <li><a class="ts-16 color-gray no-link-decoration" href="">Тарифы</a></li>
-              <li><a class="ts-16 color-gray no-link-decoration" href="">Мобильное приложение</a></li>
-              <li><a class="ts-16 color-gray no-link-decoration" href="">Условия использования</a></li>
+              <li><a class="text-nowrap ts-16 color-gray no-link-decoration" href="">База знаний</a></li>
+              <li><a class="text-nowrap ts-16 color-gray no-link-decoration" href="">Тарифы</a></li>
+              <li><a class="text-nowrap ts-16 color-gray no-link-decoration" href="">Мобильное приложение</a></li>
+              <li><a class="text-nowrap ts-16 color-gray no-link-decoration" href="">Условия использования</a></li>
             </ul>
           </li>
-          <li class="mb-30">
+          <li class="col-4 mb-30">
             <ul>
-              <h2 class="h2 mb-17 uppercase">Контакты</h2>
-              <li><a class="ts-16 color-gray no-link-decoration" href="">Hello@music.box</a></li>
-              <li><a class="ts-16 color-gray no-link-decoration" href="">Russia, Moscow. Music Box studio</a></li>
-              <li><a class="ts-16 color-gray no-link-decoration" href="">+ 7 499 999 99 99</a></li>
+              <h2 class="h4 mb-16 uppercase">Контакты</h2>
+              <li><a class="text-nowrap ts-16 color-gray no-link-decoration" href="">Hello@music.box</a></li>
+              <li><a class="text-nowrap ts-16 color-gray no-link-decoration" href="">Russia, Moscow. Music Box studio</a></li>
+              <li><a class="text-nowrap ts-16 color-gray no-link-decoration" href="">+ 7 499 999 99 99</a></li>
             </ul>
           </li>
-          <li>
-            <h2 class="h2 mb-21 uppercase">Подписывайтесь</h2>
+          <li class="col-4">
+            <h2 class="h4 mb-21 uppercase">Подписывайтесь</h2>
             <ul class="d-flex">
               <li class="mr-24"><a class="ts-16 color-gray no-link-decoration" href=""><img src="./images/Google+.png"
                     alt=""></a></li>
@@ -285,13 +285,13 @@
         </ul>
       </nav>
     </div>
-    <div class="container border-top-1">
-      <nav class="pt-40 pb-50">
-        <ul>
-          <li class="mb-17"><a class="ts-16 color-gray no-link-decoration" href="">Магазин</a></li>
-          <li class="mb-17"><a class="ts-16 color-gray no-link-decoration" href="">Обслуживание</a></li>
-          <li class="mb-17"><a class="ts-16 color-gray no-link-decoration" href="">Блог</a></li>
-          <li><a class="ts-16 color-gray no-link-decoration" href="">Поддержка</a></li>
+    <div class="border-top-1">
+      <nav class="container footer-nav-second pt-40 pb-50">
+        <ul class="footer-menu-second">
+          <li class="footer-menu-second-item mb-16"><a class="mr-15 ts-16 color-gray no-link-decoration" href="">Магазин</a></li>
+          <li class="footer-menu-second-item mb-16"><a class="mr-15 ts-16 color-gray no-link-decoration" href="">Обслуживание</a></li>
+          <li class="footer-menu-second-item mb-16"><a class="mr-15 ts-16 color-gray no-link-decoration" href="">Блог</a></li>
+          <li class="footer-menu-second-item"><a class="ts-16 color-gray no-link-decoration" href="">Поддержка</a></li>
         </ul>
       </nav>
     </div>

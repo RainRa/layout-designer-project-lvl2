@@ -2,6 +2,42 @@
   padding: 62px 0 75px;
 }
 
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+  @include for-tablet-up {
+    flex-direction: row;
+  }
+  & .footer-menu-item {
+    padding: 24px 24px;
+    @include for-tablet-up {
+      height: 100%;
+      flex: 1 1 0;
+    }
+  }
+}
+
+.test-nav {
+    display: flex;
+    flex-direction: column;
+    @include for-tablet-up {
+      flex-direction: row;
+    }
+    & .test-nav-item {
+      margin-right: 15px;
+    }
+  }
+
+  .footer-menu-second {
+    display: flex;
+    flex-direction: column;
+
+    @include for-tablet-up {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  }
+
 .bg-gradient {
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }

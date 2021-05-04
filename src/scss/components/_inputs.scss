@@ -1,7 +1,14 @@
-.search-form {
-  z-index: 1;
-
+.search {
   width: 100%;
+
+  @include for-tablet-up {
+    flex: 1 1 189px;
+    margin-bottom: 21px;
+  }
+
+  @include header-adaptive-margins {
+    margin-bottom: 0;
+  }
 }
 
 .input-search {
@@ -10,7 +17,8 @@
   padding: 5px 10px;
   border: none;
   border-radius: 50px;
-}
+
+  }
 
 .input-transparent {
   padding: 17px 22px;

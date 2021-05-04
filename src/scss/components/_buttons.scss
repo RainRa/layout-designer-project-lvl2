@@ -8,6 +8,19 @@
   cursor: pointer;
 }
 
+.btn-album {
+  max-width: 135px;
+  padding: 17px 30px;
+
+  white-space: nowrap;
+  color: $color-dark-gray;
+  border: 1px solid #fff;
+}
+
+.btn-dark-grey {
+  color: $color-dark-gray;
+}
+
 .btn-purple {
   background-color: $color-purple;
 }
@@ -31,12 +44,13 @@
 }
 
 .btn-color-white {
-  border: 1px solid #fff;
+  border: 1px solid #cacaca;
 
-  color: $color-white;
+  color: $color-dark-gray;
 }
 
 .btn-round {
   padding: 17px 40px;
   border-radius: 32px;
+  max-width: 135px;
 }
