@@ -39,8 +39,8 @@
   margin-bottom: 17px;
 
   @include for-tablet-up {
-    margin-bottom: 21px;
     flex: 12 1 auto;
+    margin-bottom: 21px;
   }
 
   @include header-adaptive-margins {
@@ -71,4 +71,3 @@
     }
   }
 }
-

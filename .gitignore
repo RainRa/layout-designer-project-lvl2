@@ -1,3 +1,5 @@
 /node_modules/
 /src/css/style.css.map
 /.vscode
+/src/index.php
+/src/main.html

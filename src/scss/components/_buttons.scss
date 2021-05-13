@@ -8,13 +8,48 @@
   cursor: pointer;
 }
 
+.btn-acces {
+  width: 100%;
+}
+
 .btn-album {
   max-width: 135px;
   padding: 17px 30px;
 
-  white-space: nowrap;
+  border: 1px;
+
   color: $color-dark-gray;
-  border: 1px solid #fff;
+  white-space: nowrap;
+}
+
+.btn-subscribe {
+  width: 100%;
+  padding: 24px 30px;
+  border: 1px;
+}
+
+.btn-round {
+  max-width: 135px;
+  padding: 17px 40px;
+  border-radius: 32px;
+}
+
+.btn-outline-gray {
+  border-color: $color-dark-gray;
+  border-style: solid;
+
+  color: $color-dark-gray;
+
+  background-color: transparent;
+}
+
+.btn-outline-white {
+  border-color: $color-white;
+  border-style: solid;
+
+  color: $color-white;
+
+  background-color: transparent;
 }
 
 .btn-dark-grey {
@@ -31,26 +66,4 @@
 
 .btn-green {
   background-color: $color-green;
-}
-
-.btn-transparent {
-  background-color: transparent;
-}
-
-.btn-color-gray {
-  border: 1px solid #cacaca;
-
-  color: $color-dark-gray;
-}
-
-.btn-color-white {
-  border: 1px solid #cacaca;
-
-  color: $color-dark-gray;
-}
-
-.btn-round {
-  padding: 17px 40px;
-  border-radius: 32px;
-  max-width: 135px;
 }

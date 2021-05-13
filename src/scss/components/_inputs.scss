@@ -2,7 +2,7 @@
   width: 100%;
 
   @include for-tablet-up {
-    flex: 1 1 189px;
+    flex: 1 1 211px;
     margin-bottom: 21px;
   }
 
@@ -17,8 +17,7 @@
   padding: 5px 10px;
   border: none;
   border-radius: 50px;
-
-  }
+}
 
 .input-transparent {
   padding: 17px 22px;

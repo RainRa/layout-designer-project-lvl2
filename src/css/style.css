@@ -18,6 +18,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  object-fit: contain;
 }
 
 .h1 {
@@ -151,12 +152,42 @@ img {
   cursor: pointer;
 }
 
+.btn-acces {
+  width: 100%;
+}
+
 .btn-album {
   max-width: 135px;
   padding: 17px 30px;
-  white-space: nowrap;
+  border: 1px;
   color: #cacaca;
-  border: 1px solid #fff;
+  white-space: nowrap;
+}
+
+.btn-subscribe {
+  width: 100%;
+  padding: 24px 30px;
+  border: 1px;
+}
+
+.btn-round {
+  max-width: 135px;
+  padding: 17px 40px;
+  border-radius: 32px;
+}
+
+.btn-outline-gray {
+  border-color: #cacaca;
+  border-style: solid;
+  color: #cacaca;
+  background-color: transparent;
+}
+
+.btn-outline-white {
+  border-color: #fff;
+  border-style: solid;
+  color: #fff;
+  background-color: transparent;
 }
 
 .btn-dark-grey {
@@ -175,26 +206,6 @@ img {
   background-color: #32c176;
 }
 
-.btn-transparent {
-  background-color: transparent;
-}
-
-.btn-color-gray {
-  border: 1px solid #cacaca;
-  color: #cacaca;
-}
-
-.btn-color-white {
-  border: 1px solid #cacaca;
-  color: #cacaca;
-}
-
-.btn-round {
-  padding: 17px 40px;
-  border-radius: 32px;
-  max-width: 135px;
-}
-
 body {
   color: #fff;
   font-size: 18px;
@@ -209,7 +220,7 @@ body {
   padding: 0 20px;
 }
 
-.row-adaptive {
+.row-tablet-up {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -217,7 +228,7 @@ body {
 }
 
 @media (min-width: 640px) {
-  .row-adaptive {
+  .row-tablet-up {
     flex-direction: row;
     margin: 0 -25px;
   }
@@ -277,7 +288,13 @@ body {
 }
 
 .row-reverse {
-  flex-direction: row-reverse;
+  /*  tablets, Ipad, e-readear, landscape 800x480 phones */
+}
+
+@media (min-width: 640px) {
+  .row-reverse {
+    flex-direction: row-reverse;
+  }
 }
 
 .align-items-center {
@@ -344,10 +361,6 @@ body {
   margin-bottom: 24px;
 }
 
-.mb-24 {
-  margin-bottom: 24px;
-}
-
 .mb-30 {
   margin-bottom: 30px;
 }
@@ -380,13 +393,13 @@ body {
   padding-top: 40px;
 }
 
-.pr-50-adaptive {
+.pr-tablet-up {
   padding-right: 0;
   /*  tablets, Ipad, e-readear, landscape 800x480 phones */
 }
 
 @media (min-width: 640px) {
-  .pr-50-adaptive {
+  .pr-tablet-up {
     padding-right: 50px;
   }
 }
@@ -480,7 +493,7 @@ body {
   }
 }
 
-@media (min-width: 700px) {
+@media (min-width: 722px) {
   .logo {
     margin-bottom: 0;
   }
@@ -493,12 +506,12 @@ body {
 
 @media (min-width: 640px) {
   .nav {
-    margin-bottom: 21px;
     flex: 12 1 auto;
+    margin-bottom: 21px;
   }
 }
 
-@media (min-width: 700px) {
+@media (min-width: 722px) {
   .nav {
     margin-bottom: 0;
   }
@@ -530,30 +543,6 @@ body {
 
 .footer-nav {
   padding: 62px 0 75px;
-}
-
-.footer-menu {
-  display: flex;
-  flex-direction: column;
-  /*  tablets, Ipad, e-readear, landscape 800x480 phones */
-}
-
-@media (min-width: 640px) {
-  .footer-menu {
-    flex-direction: row;
-  }
-}
-
-.footer-menu .footer-menu-item {
-  padding: 24px 24px;
-  /*  tablets, Ipad, e-readear, landscape 800x480 phones */
-}
-
-@media (min-width: 640px) {
-  .footer-menu .footer-menu-item {
-    height: 100%;
-    flex: 1 1 0;
-  }
 }
 
 .test-nav {
@@ -596,12 +585,12 @@ body {
 
 @media (min-width: 640px) {
   .search {
-    flex: 1 1 189px;
+    flex: 1 1 211px;
     margin-bottom: 21px;
   }
 }
 
-@media (min-width: 700px) {
+@media (min-width: 722px) {
   .search {
     margin-bottom: 0;
   }
@@ -636,8 +625,8 @@ body {
 .acces-form {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: space-between;
   width: 100%;
   max-width: 374px;
   margin: 0 auto;
@@ -681,31 +670,28 @@ body {
   .subscription {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -25px;
+    justify-content: center;
+    width: auto;
+    margin: 0 -30px;
   }
 }
 
-@media (min-width: 1240px) {
-  .subscription {
-    display: flex;
-    margin: 0 -25px;
-  }
-}
-
-.subscription .subscription-inner {
-  padding: 0 25px;
+.subscription .list-item {
+  margin-bottom: 40px;
   /*  tablets, Ipad, e-readear, landscape 800x480 phones */
 }
 
 @media (min-width: 640px) {
-  .subscription .subscription-inner {
-    flex: 1 1 350px;
-    max-width: 420px;
+  .subscription .list-item {
+    flex: 0 0 420px;
+    padding: 0 25px;
   }
 }
 
 .subscription .subscription-item {
-  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 15px 25px 65px 25px;
   border-radius: 16px;
 }
