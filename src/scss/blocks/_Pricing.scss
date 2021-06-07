@@ -6,17 +6,28 @@
     flex-wrap: wrap;
     justify-content: center;
     width: auto;
-    margin: 0 -30px;
+  }
+
+  @include for-dekstop-up {
+    margin: 0 -25px;
+    flex-wrap: nowrap;
   }
 
   & .subscription-item {
     margin-bottom: 40px;
+    min-width: 300px;
 
     @include for-tablet-up {
-      flex: 0 0 420px;
+      flex: 1 0 0;
+      padding: 0 25px;
+    }
+
+    @include for-dekstop-up {
+      flex: 1 0 0;
       padding: 0 25px;
     }
   }
+
 
   & .card {
     display: flex;
