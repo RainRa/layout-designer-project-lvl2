@@ -152,6 +152,14 @@ img {
   cursor: pointer;
 }
 
+.btn:hover, .btn:active {
+  box-shadow: 0 0 0 99999px rgba(0, 0, 0, 0.5);
+}
+
+.btn:focus {
+  transform: translateY(3px);
+  filter: saturate(150%);
+}
 .btn-acces {
   width: 100%;
 }
