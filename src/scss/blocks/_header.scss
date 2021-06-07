@@ -48,7 +48,7 @@
   }
 }
 
-.menu {
+.nav-list {
   position: relative;
 
   z-index: 1;
@@ -62,7 +62,7 @@
     color: $color-white;
   }
 
-  & .menu-item {
+  & .nav-link {
     width: 100%;
 
     @include for-tablet-up {

@@ -1,5 +1,16 @@
 .footer-nav {
   padding: 62px 0 75px;
+
+  & .footer-nav-inner {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    @include for-tablet-up {
+      flex-direction: row;
+      margin: 0 -15px;
+    }
+  }
 }
 
 .test-nav {
@@ -22,6 +33,12 @@
   @include for-tablet-up {
     flex-direction: row;
     flex-wrap: wrap;
+  }
+
+  & .footer-menu-second-item {
+    & a:hover {
+      color: $color-white;
+    }
   }
 }
 

@@ -1,0 +1,12 @@
+.description {
+  padding-top: 225px;
+  padding-bottom: 200px;
+
+  & .description-subtitle {
+    margin-bottom: 16px;
+
+    @include for-dekstop-up {
+      margin-bottom: 32px;
+    }
+  }
+}
