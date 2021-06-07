@@ -19,7 +19,7 @@ body {
 
   @include for-tablet-up {
     flex-direction: row;
-    margin: 0 -25px;
+    margin: 0 -15px;
   }
 }
 
@@ -35,6 +35,9 @@ body {
 .col-4 {
   flex: 1 1 0;
   padding: 0 15px;
+  & a:hover {
+    color: $color-white;
+  }
 }
 
 .w-100 {
@@ -108,7 +111,7 @@ body {
 }
 
 .border-top-1 {
-  border: 1px solid $color-gray;
+  border-top: 1px solid $color-gray;
 }
 // MARGINS
 .mt-25 {
