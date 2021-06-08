@@ -9,13 +9,13 @@
   }
 
   @include for-dekstop-up {
-    margin: 0 -25px;
     flex-wrap: nowrap;
+    margin: 0 -25px;
   }
 
   & .subscription-item {
-    margin-bottom: 40px;
     min-width: 300px;
+    margin-bottom: 40px;
 
     @include for-tablet-up {
       flex: 1 0 0;
@@ -27,7 +27,6 @@
       padding: 0 25px;
     }
   }
-
 
   & .card {
     display: flex;

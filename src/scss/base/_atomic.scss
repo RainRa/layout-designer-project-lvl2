@@ -35,6 +35,7 @@ body {
 .col-4 {
   flex: 1 1 0;
   padding: 0 15px;
+
   & a:hover {
     color: $color-white;
   }

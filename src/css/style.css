@@ -713,14 +713,14 @@ body {
 
 @media (min-width: 1240px) {
   .subscription {
-    margin: 0 -25px;
     flex-wrap: nowrap;
+    margin: 0 -25px;
   }
 }
 
 .subscription .subscription-item {
-  margin-bottom: 40px;
   min-width: 300px;
+  margin-bottom: 40px;
   /*  tablets, Ipad, e-readear, landscape 800x480 phones */
 }
 
