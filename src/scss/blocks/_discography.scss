@@ -1,3 +1,11 @@
+.disk {
+  max-width: 138px;
+
+  @include for-tablet-up {
+    max-width: none;
+  }
+}
+
 .big-cover {
   width: 137px;
 

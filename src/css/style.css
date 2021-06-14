@@ -67,7 +67,7 @@ img {
   font-weight: 700;
   font-size: 18px;
   font-family: "Roboto", sans-serif;
-  line-height: 1.3;
+  line-height: 1.5;
 }
 
 @media (min-width: 1240px) {
@@ -145,7 +145,7 @@ img {
 }
 
 .btn {
-  padding: 21px 30px;
+  padding: 20px 30px;
   border: none;
   border-radius: 5px;
   color: #fff;
@@ -175,7 +175,7 @@ img {
 
 .btn-subscribe {
   width: 100%;
-  padding: 24px 30px;
+  padding: 22px 30px;
   border: 1px;
 }
 
@@ -196,6 +196,7 @@ img {
   border-color: #fff;
   border-style: solid;
   color: #fff;
+  font-size: 16px;
   background-color: transparent;
 }
 
@@ -239,7 +240,6 @@ body {
 @media (min-width: 640px) {
   .row-tablet-up {
     flex-direction: row;
-    margin: 0 -15px;
   }
 }
 
@@ -251,17 +251,35 @@ body {
 @media (min-width: 640px) {
   .col-2 {
     flex: 1 1 50%;
+  }
+}
+
+.col-2-offset {
+  /*  tablets, Ipad, e-readear, landscape 800x480 phones */
+}
+
+@media (min-width: 640px) {
+  .col-2-offset {
     padding: 0 25px;
   }
 }
 
 .col-4 {
   flex: 1 1 0;
-  padding: 0 15px;
 }
 
 .col-4 a:hover {
   color: #fff;
+}
+
+.col-4-offset {
+  /*  tablets, Ipad, e-readear, landscape 800x480 phones */
+}
+
+@media (min-width: 640px) {
+  .col-4-offset {
+    padding: 20px;
+  }
 }
 
 .w-100 {
@@ -300,16 +318,6 @@ body {
   flex-grow: 1;
 }
 
-.row-reverse {
-  /*  tablets, Ipad, e-readear, landscape 800x480 phones */
-}
-
-@media (min-width: 640px) {
-  .row-reverse {
-    flex-direction: row-reverse;
-  }
-}
-
 .align-items-center {
   align-items: center;
 }
@@ -342,8 +350,26 @@ body {
   border-top: 1px solid #e0e0e0;
 }
 
+.mt-16 {
+  margin-top: 16px;
+}
+
 .mt-25 {
   margin-top: 25px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mt-50-tablet {
+  /*  tablets, Ipad, e-readear, landscape 800x480 phones */
+}
+
+@media (min-width: 640px) {
+  .mt-50-tablet {
+    margin-top: 50px;
+  }
 }
 
 .mr-15 {
@@ -366,6 +392,10 @@ body {
   margin-bottom: 16px;
 }
 
+.mb-18 {
+  margin-bottom: 18px;
+}
+
 .mb-21 {
   margin-bottom: 21px;
 }
@@ -374,8 +404,38 @@ body {
   margin-bottom: 24px;
 }
 
-.mb-30 {
+.mb-25 {
+  margin-bottom: 24px;
+}
+
+.mb-tablet-25 {
+  margin-bottom: 25px;
+  /*  tablets, Ipad, e-readear, landscape 800x480 phones */
+}
+
+@media (min-width: 640px) {
+  .mb-tablet-25 {
+    margin-bottom: 0;
+  }
+}
+
+.mb-46 {
+  margin-bottom: 46px;
+}
+
+.mb-34 {
+  margin-bottom: 34px;
+}
+
+.mb-tablet-30 {
   margin-bottom: 30px;
+  /*  tablets, Ipad, e-readear, landscape 800x480 phones */
+}
+
+@media (min-width: 640px) {
+  .mb-tablet-30 {
+    margin-bottom: 0;
+  }
 }
 
 .mb-40 {
@@ -398,8 +458,8 @@ body {
   margin-bottom: 100px;
 }
 
-.mb-200 {
-  margin-bottom: 200px;
+.mb-185 {
+  margin-bottom: 185px;
 }
 
 .pt-40 {
@@ -417,8 +477,8 @@ body {
   }
 }
 
-.pb-25 {
-  padding-bottom: 15px;
+.pb-24 {
+  padding-bottom: 24px;
 }
 
 .pb-50 {
@@ -437,8 +497,8 @@ body {
   padding-top: 100px;
 }
 
-.pt-225 {
-  padding-top: 225px;
+.pt-250 {
+  padding-top: 250px;
 }
 
 .pb-200 {
@@ -556,6 +616,13 @@ body {
 
 .footer-nav {
   padding: 62px 0 75px;
+  /*  tablets, Ipad, e-readear, landscape 800x480 phones */
+}
+
+@media (min-width: 640px) {
+  .footer-nav {
+    padding: 44px 0 50px;
+  }
 }
 
 .footer-nav .footer-nav-inner {
@@ -568,7 +635,7 @@ body {
 @media (min-width: 640px) {
   .footer-nav .footer-nav-inner {
     flex-direction: row;
-    margin: 0 -15px;
+    margin: 0 -20px;
   }
 }
 
@@ -598,6 +665,18 @@ body {
   .footer-menu-second {
     flex-direction: row;
     flex-wrap: wrap;
+    margin-bottom: 0;
+  }
+}
+
+.footer-menu-second .footer-menu-second-item {
+  margin-bottom: 16px;
+  /*  tablets, Ipad, e-readear, landscape 800x480 phones */
+}
+
+@media (min-width: 640px) {
+  .footer-menu-second .footer-menu-second-item {
+    margin-bottom: 0;
   }
 }
 
@@ -634,13 +713,13 @@ body {
   border: none;
   border-radius: 50px;
   color: #fff;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 13.3px;
+  line-height: 15px;
+  background-color: #3c3b3d;
 }
 
 .input-transparent {
-  padding: 17px 22px;
+  padding: 15px 22px;
   border: 2px solid #cacaca;
   border-radius: 3px;
   background-color: transparent;
@@ -687,6 +766,17 @@ body {
   }
 }
 
+.disk {
+  max-width: 138px;
+  /*  tablets, Ipad, e-readear, landscape 800x480 phones */
+}
+
+@media (min-width: 640px) {
+  .disk {
+    max-width: none;
+  }
+}
+
 .big-cover {
   width: 137px;
 }
@@ -720,7 +810,7 @@ body {
 
 .subscription .subscription-item {
   min-width: 300px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   /*  tablets, Ipad, e-readear, landscape 800x480 phones */
 }
 
@@ -742,7 +832,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 15px 25px 65px 25px;
+  padding: 19px 25px 65px 25px;
   border-radius: 16px;
 }
 
@@ -761,24 +851,110 @@ body {
 }
 
 .bg-premium {
-  background-image: url(../images/subscribe_1.png);
+  background-image: url(../images/subscribe_3.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.description {
-  padding-top: 225px;
+.similar-artist {
+  max-width: 137px;
+  /*  tablets, Ipad, e-readear, landscape 800x480 phones */
+}
+
+@media (min-width: 640px) {
+  .similar-artist {
+    max-width: none;
+  }
+}
+
+.acces {
+  padding-top: 250px;
   padding-bottom: 200px;
 }
 
-.description .description-subtitle {
+@media (min-width: 1240px) {
+  .acces {
+    padding-top: 200px;
+  }
+}
+
+.acces .acces-subtitle {
   margin-bottom: 16px;
 }
 
 @media (min-width: 1240px) {
-  .description .description-subtitle {
+  .acces .acces-subtitle {
     margin-bottom: 32px;
+  }
+}
+
+.news-inner {
+  /*  tablets, Ipad, e-readear, landscape 800x480 phones */
+}
+
+@media (min-width: 640px) {
+  .news-inner {
+    padding: 0 25px;
+  }
+}
+
+.news {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /*  tablets, Ipad, e-readear, landscape 800x480 phones */
+}
+
+@media (min-width: 640px) {
+  .news {
+    flex-direction: row;
+    margin: 0 -25px;
+  }
+}
+
+.news-img {
+  margin-bottom: 50px;
+  /*  tablets, Ipad, e-readear, landscape 800x480 phones */
+}
+
+@media (min-width: 640px) {
+  .news-img {
+    margin-bottom: 65px;
+  }
+}
+
+.news-title {
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+@media (min-width: 1240px) {
+  .news-title {
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+}
+
+.row-reverse {
+  /*  tablets, Ipad, e-readear, landscape 800x480 phones */
+}
+
+@media (min-width: 640px) {
+  .row-reverse {
+    flex-direction: row-reverse;
+  }
+}
+
+.artist {
+  padding-top: 225px;
+  padding-bottom: 200px;
+}
+
+@media (min-width: 1240px) {
+  .artist {
+    padding-top: 200px;
   }
 }
 /*# sourceMappingURL=style.css.map */

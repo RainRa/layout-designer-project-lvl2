@@ -1,8 +1,12 @@
-.description {
-  padding-top: 225px;
+.acces {
+  padding-top: 250px;
   padding-bottom: 200px;
 
-  & .description-subtitle {
+  @include for-dekstop-up {
+    padding-top: 200px;
+  }
+
+  & .acces-subtitle {
     margin-bottom: 16px;
 
     @include for-dekstop-up {

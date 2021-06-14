@@ -1,1 +1,8 @@
 // Similar-Artist
+.similar-artist {
+  max-width: 137px;
+
+  @include for-tablet-up {
+    max-width: none;
+  }
+}

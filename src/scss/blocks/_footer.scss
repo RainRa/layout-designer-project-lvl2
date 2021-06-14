@@ -1,6 +1,10 @@
 .footer-nav {
   padding: 62px 0 75px;
 
+  @include for-tablet-up {
+    padding: 44px 0 50px;
+  }
+
   & .footer-nav-inner {
     display: flex;
     flex-direction: column;
@@ -8,7 +12,7 @@
 
     @include for-tablet-up {
       flex-direction: row;
-      margin: 0 -15px;
+      margin: 0 -20px;
     }
   }
 }
@@ -33,9 +37,17 @@
   @include for-tablet-up {
     flex-direction: row;
     flex-wrap: wrap;
+
+    margin-bottom: 0;
   }
 
   & .footer-menu-second-item {
+    margin-bottom: 16px;
+
+    @include for-tablet-up {
+      margin-bottom: 0;
+    }
+
     & a:hover {
       color: $color-white;
     }
