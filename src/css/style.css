@@ -76,6 +76,10 @@ img {
   }
 }
 
+.capitalize {
+  text-transform: capitalize;
+}
+
 .ts-small {
   font-size: 12.8px;
 }
@@ -497,6 +501,10 @@ body {
   padding-top: 100px;
 }
 
+.pt-200 {
+  padding-top: 200px;
+}
+
 .pt-250 {
   padding-top: 250px;
 }
@@ -865,17 +873,6 @@ body {
 @media (min-width: 640px) {
   .similar-artist {
     max-width: none;
-  }
-}
-
-.acces {
-  padding-top: 250px;
-  padding-bottom: 200px;
-}
-
-@media (min-width: 1240px) {
-  .acces {
-    padding-top: 200px;
   }
 }
 

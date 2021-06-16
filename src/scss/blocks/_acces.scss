@@ -1,11 +1,4 @@
 .acces {
-  padding-top: 250px;
-  padding-bottom: 200px;
-
-  @include for-dekstop-up {
-    padding-top: 200px;
-  }
-
   & .acces-subtitle {
     margin-bottom: 16px;
 
