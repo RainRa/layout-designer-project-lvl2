@@ -943,15 +943,4 @@ body {
     flex-direction: row-reverse;
   }
 }
-
-.artist {
-  padding-top: 225px;
-  padding-bottom: 200px;
-}
-
-@media (min-width: 1240px) {
-  .artist {
-    padding-top: 200px;
-  }
-}
 /*# sourceMappingURL=style.css.map */
