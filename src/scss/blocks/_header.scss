@@ -30,7 +30,7 @@
     max-width: 180px;
   }
 
-  @include header-adaptive-margins {
+  @include for-tablet-xl-up {
     margin-bottom: 0;
   }
 }
@@ -43,7 +43,7 @@
     margin-bottom: 21px;
   }
 
-  @include header-adaptive-margins {
+  @include for-tablet-xl-up {
     margin-bottom: 0;
   }
 }

@@ -6,7 +6,7 @@
     margin-bottom: 21px;
   }
 
-  @include header-adaptive-margins {
+  @include for-tablet-xl-up {
     margin-bottom: 0;
   }
 }

@@ -1,0 +1,33 @@
+.row-tablet-up {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  @include for-tablet-up {
+    flex-direction: row;
+  }
+}
+
+.col-2 {
+  display: flex;
+
+  @include for-tablet-up {
+    flex: 1 1 50%;
+  }
+}
+
+.col-4 {
+  flex: 1 1 0;
+}
+
+.col-2-offset {
+  @include for-tablet-up {
+    padding: 0 25px;
+  }
+}
+
+.col-4-offset {
+  @include for-tablet-up {
+    padding: 20px;
+  }
+}

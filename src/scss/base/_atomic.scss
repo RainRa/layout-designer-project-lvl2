@@ -12,45 +12,6 @@ body {
   padding: 0 20px;
 }
 
-.row-tablet-up {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-
-  @include for-tablet-up {
-    flex-direction: row;
-    // margin: 0 -25px;
-  }
-}
-
-.col-2 {
-  display: flex;
-
-  @include for-tablet-up {
-    flex: 1 1 50%;
-  }
-}
-
-.col-2-offset {
-  @include for-tablet-up {
-    padding: 0 25px;
-  }
-}
-
-.col-4 {
-  flex: 1 1 0;
-
-  & a:hover {
-    color: $color-white;
-  }
-}
-
-.col-4-offset {
-  @include for-tablet-up {
-    padding: 20px;
-  }
-}
-
 .w-100 {
   width: 100%;
 }
@@ -145,12 +106,12 @@ body {
   margin-right: 16px;
 }
 
-.mr-49 {
-  margin-right: 49px;
-}
-
 .mr-24 {
   margin-right: 24px;
+}
+
+.mr-50 {
+  margin-right: 50px;
 }
 
 .mb-16 {
@@ -169,10 +130,6 @@ body {
   margin-bottom: 24px;
 }
 
-.mb-25 {
-  margin-bottom: 24px;
-}
-
 .mb-tablet-25 {
   margin-bottom: 25px;
 
@@ -181,12 +138,12 @@ body {
   }
 }
 
-.mb-46 {
-  margin-bottom: 46px;
-}
-
 .mb-34 {
   margin-bottom: 34px;
+}
+
+.mb-46 {
+  margin-bottom: 46px;
 }
 
 .mb-tablet-30 {
