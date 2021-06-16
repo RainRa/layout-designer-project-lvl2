@@ -1,9 +1,7 @@
-.acces {
-  & .acces-subtitle {
+.subtitle {
     margin-bottom: 16px;
 
     @include for-dekstop-up {
       margin-bottom: 32px;
     }
   }
-}

@@ -876,12 +876,12 @@ body {
   }
 }
 
-.acces .acces-subtitle {
+.subtitle {
   margin-bottom: 16px;
 }
 
 @media (min-width: 1240px) {
-  .acces .acces-subtitle {
+  .subtitle {
     margin-bottom: 32px;
   }
 }
