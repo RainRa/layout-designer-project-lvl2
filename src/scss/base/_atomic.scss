@@ -92,6 +92,14 @@ body {
   margin-top: 50px;
 }
 
+.mt-mobile-50 {
+  margin-top: 50px;
+
+  @include for-tablet-up {
+    margin-top: 0;
+  }
+}
+
 .mt-50-tablet {
   @include for-tablet-up {
     margin-top: 50px;

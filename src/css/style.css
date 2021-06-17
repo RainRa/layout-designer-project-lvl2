@@ -206,6 +206,16 @@ body {
   margin-top: 50px;
 }
 
+.mt-mobile-50 {
+  margin-top: 50px;
+}
+
+@media (min-width: 640px) {
+  .mt-mobile-50 {
+    margin-top: 0;
+  }
+}
+
 @media (min-width: 640px) {
   .mt-50-tablet {
     margin-top: 50px;
@@ -455,6 +465,7 @@ body {
 
 .btn-acces {
   width: 100%;
+  font-size: 13.3px;
 }
 
 .btn-album {
@@ -481,6 +492,7 @@ body {
   border-color: #cacaca;
   border-style: solid;
   color: #cacaca;
+  line-height: 1.5;
   background-color: transparent;
 }
 
@@ -489,6 +501,7 @@ body {
   border-style: solid;
   color: #fff;
   font-size: 16px;
+  line-height: 1.5;
   background-color: transparent;
 }
 
@@ -728,7 +741,7 @@ body {
 }
 
 .disk {
-  max-width: 138px;
+  max-width: 137px;
 }
 
 @media (min-width: 640px) {
