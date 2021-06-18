@@ -592,6 +592,21 @@ body {
   }
 }
 
+.main-section {
+  width: auto;
+}
+
+@media (min-width: 640px) {
+  .main-section {
+    width: 1240px;
+    margin: 0 auto;
+  }
+}
+
+.last-section {
+  margin-bottom: 100px;
+}
+
 .header {
   position: absolute;
   top: 0;

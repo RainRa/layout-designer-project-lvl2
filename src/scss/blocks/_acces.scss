@@ -1,7 +1,7 @@
-  .subtitle {
-    margin-bottom: 16px;
+.subtitle {
+  margin-bottom: 16px;
 
-    @include for-dekstop-up {
-      margin-bottom: 32px;
-    }
+  @include for-dekstop-up {
+    margin-bottom: 32px;
   }
+}

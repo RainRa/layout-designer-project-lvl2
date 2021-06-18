@@ -1,0 +1,12 @@
+.main-section {
+  width: auto;
+
+  @include for-tablet-up {
+    width: 1240px;
+    margin: 0 auto;
+  }
+}
+
+.last-section {
+  margin-bottom: 100px;
+}
