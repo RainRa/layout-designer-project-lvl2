@@ -112,6 +112,14 @@
   margin-bottom: 16px;
 }
 
+.mb-tablet-16 {
+  margin-bottom: 16px;
+
+  @include for-tablet-up {
+    margin-bottom: 0;
+  }
+}
+
 .mb-18 {
   margin-bottom: 18px;
 }
