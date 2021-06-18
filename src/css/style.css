@@ -832,11 +832,9 @@ body {
 }
 
 .subscription .card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding: 24px 25px 65px 25px;
   border-radius: 16px;
+  text-align: center;
 }
 
 .bg-free {
