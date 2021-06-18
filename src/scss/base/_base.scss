@@ -12,6 +12,13 @@ p {
   padding: 0;
 }
 
+body {
+  color: $color-white;
+  font-size: 18px;
+  font-family: $main-font;
+  line-height: 1.5;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -25,3 +32,4 @@ img {
   height: auto;
   object-fit: contain;
 }
+
