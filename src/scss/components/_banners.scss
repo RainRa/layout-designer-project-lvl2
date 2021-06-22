@@ -1,39 +1,13 @@
 .bg-banner-artist {
-  position: relative;
-
-  &::before {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-
-    background-image: url("../images/Morten%20Harket.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
-    content: "";
-  }
+  background-image: url("../images/Morten%20Harket.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .bg-banner-acces {
-  position: relative;
-
-  &::before {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-
-    background-image: url("../images/banner.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
-    content: "";
-  }
+  background-image: url("../images/banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }

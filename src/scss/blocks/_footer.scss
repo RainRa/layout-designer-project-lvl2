@@ -1,8 +1,8 @@
 .footer-nav {
-  padding: 62px 0 75px;
+  padding: 62px 0 71px;
 
   @include for-tablet-up {
-    padding: 44px 0 50px;
+    padding: 44px 0 51px;
   }
 
   & .footer-nav-inner {
@@ -28,6 +28,7 @@
 .footer-menu-second {
   display: flex;
   flex-direction: column;
+  padding: 39px 0 49px;
 
   @include for-tablet-up {
     flex-direction: row;
@@ -38,6 +39,8 @@
 
   & .footer-menu-second-item {
     margin-bottom: 16px;
+
+    font-size: 16px;
 
     @include for-tablet-up {
       margin-bottom: 0;

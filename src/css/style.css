@@ -188,18 +188,6 @@ img {
   border-top: 1px solid #e0e0e0;
 }
 
-.mt-16 {
-  margin-top: 16px;
-}
-
-.mt-25 {
-  margin-top: 25px;
-}
-
-.mt-50 {
-  margin-top: 50px;
-}
-
 .mt-mobile-50 {
   margin-top: 50px;
 }
@@ -214,6 +202,64 @@ img {
   .mt-50-tablet {
     margin-top: 50px;
   }
+}
+
+.mt-50-tablet .mb-tablet-16 {
+  margin-bottom: 16px;
+}
+
+@media (min-width: 640px) {
+  .mt-50-tablet .mb-tablet-16 {
+    margin-bottom: 0;
+  }
+}
+
+.mb-tablet-25 {
+  margin-bottom: 25px;
+}
+
+@media (min-width: 640px) {
+  .mb-tablet-25 {
+    margin-bottom: 0;
+  }
+}
+
+.mb-tablet-30 {
+  margin-bottom: 30px;
+}
+
+@media (min-width: 640px) {
+  .mb-tablet-30 {
+    margin-bottom: 0;
+  }
+}
+
+.pr-tablet-50 {
+  padding-right: 0;
+}
+
+@media (min-width: 640px) {
+  .pr-tablet-50 {
+    padding-right: 50px;
+  }
+}
+
+@media (min-width: 640px) {
+  .pl-tablet-20 {
+    padding-left: 20px;
+  }
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
+.mt-25 {
+  margin-top: 25px;
+}
+
+.mt-50 {
+  margin-top: 50px;
 }
 
 .mr-15 {
@@ -236,16 +282,6 @@ img {
   margin-bottom: 16px;
 }
 
-.mb-tablet-16 {
-  margin-bottom: 16px;
-}
-
-@media (min-width: 640px) {
-  .mb-tablet-16 {
-    margin-bottom: 0;
-  }
-}
-
 .mb-18 {
   margin-bottom: 18px;
 }
@@ -258,32 +294,12 @@ img {
   margin-bottom: 24px;
 }
 
-.mb-tablet-25 {
-  margin-bottom: 25px;
-}
-
-@media (min-width: 640px) {
-  .mb-tablet-25 {
-    margin-bottom: 0;
-  }
-}
-
 .mb-34 {
   margin-bottom: 34px;
 }
 
 .mb-46 {
   margin-bottom: 46px;
-}
-
-.mb-tablet-30 {
-  margin-bottom: 30px;
-}
-
-@media (min-width: 640px) {
-  .mb-tablet-30 {
-    margin-bottom: 0;
-  }
 }
 
 .mb-40 {
@@ -316,16 +332,6 @@ img {
 
 .pt-40 {
   padding-top: 40px;
-}
-
-.pr-tablet-up {
-  padding-right: 0;
-}
-
-@media (min-width: 640px) {
-  .pr-tablet-up {
-    padding-right: 50px;
-  }
 }
 
 .pb-24 {
@@ -432,47 +438,23 @@ img {
 }
 
 .bg-banner-artist {
-  position: relative;
-}
-
-.bg-banner-artist::before {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
   background-image: url("../images/Morten%20Harket.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  content: "";
 }
 
 .bg-banner-acces {
-  position: relative;
-}
-
-.bg-banner-acces::before {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
   background-image: url("../images/banner.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  content: "";
 }
 
 .btn {
-  display: block;
   padding: 20px 30px;
   border: none;
   border-radius: 5px;
-  color: #fff;
   cursor: pointer;
 }
 
@@ -485,22 +467,22 @@ img {
   filter: saturate(150%);
 }
 
-.btn-acces {
+.btn-sm {
+  max-width: 135px;
+  padding: 16px 30px;
+  border: 1px;
+  white-space: nowrap;
+}
+
+.btn-block {
+  display: block;
   width: 100%;
   font-size: 13.3px;
 }
 
-.btn-album {
-  max-width: 135px;
-  padding: 16px 30px;
-  border: 1px;
-  color: #cacaca;
-  white-space: nowrap;
-}
-
-.btn-subscribe {
+.btn-block-border-1 {
+  display: block;
   width: 100%;
-  padding: 20px 30px;
   border: 1px;
 }
 
@@ -533,14 +515,17 @@ img {
 }
 
 .btn-purple {
+  color: #fff;
   background-color: #5328a1;
 }
 
 .btn-red {
+  color: #fff;
   background-color: #95390c;
 }
 
 .btn-green {
+  color: #fff;
   background-color: #32c176;
 }
 
@@ -713,12 +698,12 @@ img {
 }
 
 .footer-nav {
-  padding: 62px 0 75px;
+  padding: 62px 0 71px;
 }
 
 @media (min-width: 640px) {
   .footer-nav {
-    padding: 44px 0 50px;
+    padding: 44px 0 51px;
   }
 }
 
@@ -746,6 +731,7 @@ img {
 .footer-menu-second {
   display: flex;
   flex-direction: column;
+  padding: 39px 0 49px;
 }
 
 @media (min-width: 640px) {
@@ -758,6 +744,7 @@ img {
 
 .footer-menu-second .footer-menu-second-item {
   margin-bottom: 16px;
+  font-size: 16px;
 }
 
 @media (min-width: 640px) {
@@ -799,16 +786,17 @@ img {
 }
 
 .subscription {
-  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 50px;
+  width: 100%;
   margin-bottom: 45px;
 }
 
 @media (min-width: 640px) {
   .subscription {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     width: auto;
@@ -818,7 +806,6 @@ img {
 @media (min-width: 1240px) {
   .subscription {
     flex-wrap: nowrap;
-    margin: 0 -25px;
   }
 }
 
@@ -830,26 +817,24 @@ img {
   .subscription .subscription-item {
     flex: 1 0 0;
     margin-bottom: 28px;
-    padding: 0 25px;
   }
 }
 
 @media (min-width: 1240px) {
   .subscription .subscription-item {
     flex: 1 0 0;
-    padding: 0 25px;
   }
 }
 
 .subscription .card {
-  padding: 16px 25px 62px 25px;
+  padding: 16px 30px 62px 30px;
   border-radius: 16px;
   text-align: center;
 }
 
 @media (min-width: 640px) {
   .subscription .card {
-    padding: 24px 25px 65px 25px;
+    padding: 24px 30px 65px 30px;
   }
 }
 

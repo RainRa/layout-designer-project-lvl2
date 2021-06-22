@@ -1,11 +1,7 @@
 .btn {
-  display: block;
-
   padding: 20px 30px;
   border: none;
   border-radius: 5px;
-
-  color: $color-white;
 
   cursor: pointer;
 
@@ -20,25 +16,25 @@
   }
 }
 
-.btn-acces {
-  width: 100%;
-
-  font-size: 13.3px;
-}
-
-.btn-album {
+.btn-sm {
   max-width: 135px;
   padding: 16px 30px;
 
   border: 1px;
 
-  color: $color-dark-gray;
   white-space: nowrap;
 }
 
-.btn-subscribe {
+.btn-block {
+  display: block;
   width: 100%;
-  padding: 20px 30px;
+
+  font-size: 13.3px;
+}
+
+.btn-block-border-1 {
+  display: block;
+  width: 100%;
   border: 1px;
 }
 
@@ -76,13 +72,19 @@
 }
 
 .btn-purple {
+  color: $color-white;
+
   background-color: $color-purple;
 }
 
 .btn-red {
+  color: $color-white;
+
   background-color: $color-red;
 }
 
 .btn-green {
+  color: $color-white;
+
   background-color: $color-green;
 }
