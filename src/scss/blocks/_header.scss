@@ -49,6 +49,9 @@
 }
 
 .nav-list {
+  display: flex;
+  flex-direction: column;
+
   position: relative;
 
   z-index: 1;
@@ -58,13 +61,15 @@
 
   cursor: pointer;
 
+  @include for-tablet-up {
+    flex-direction: row;
+  }
+
   & a:hover {
     color: $color-white;
   }
 
   & .nav-link {
-    width: 100%;
-
     @include for-tablet-up {
       width: max-content;
       margin-right: 24px;
