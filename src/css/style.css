@@ -198,6 +198,10 @@ img {
   }
 }
 
+.mt-50-tablet {
+  margin-top: 25px;
+}
+
 @media (min-width: 640px) {
   .mt-50-tablet {
     margin-top: 50px;
@@ -726,7 +730,6 @@ img {
 
 .footer-nav .footer-nav-link {
   display: block;
-  width: max-content;
   font-size: 16px;
 }
 
