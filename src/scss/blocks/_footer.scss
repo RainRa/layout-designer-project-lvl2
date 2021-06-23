@@ -1,11 +1,7 @@
 .footer-nav {
-  padding: 62px 0 71px;
+  padding: 62px 0 72px;
 
   font-size: 16px;
-
-  @include for-tablet-up {
-    padding: 44px 0 51px;
-  }
 
   & .footer-nav-inner {
     display: flex;

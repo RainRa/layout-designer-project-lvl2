@@ -437,7 +437,7 @@ img {
 
 @media (min-width: 640px) {
   .col-4-offset {
-    padding: 20px;
+    padding: 0 20px;
   }
 }
 
@@ -706,14 +706,8 @@ img {
 }
 
 .footer-nav {
-  padding: 62px 0 71px;
+  padding: 62px 0 72px;
   font-size: 16px;
-}
-
-@media (min-width: 640px) {
-  .footer-nav {
-    padding: 44px 0 51px;
-  }
 }
 
 .footer-nav .footer-nav-inner {
