@@ -78,6 +78,7 @@
 
 .mt-50-tablet {
   margin-top: 25px;
+
   @include for-tablet-up {
     margin-top: 50px;
   }

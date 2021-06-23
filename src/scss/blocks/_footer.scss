@@ -35,14 +35,13 @@
   @include for-tablet-up {
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 39px 0 48px;
 
     margin-bottom: 0;
+    padding: 39px 0 48px;
   }
 
   & .footer-menu-second-link {
     margin-bottom: 16px;
-    width: max-content;
 
     font-size: 16px;
 
