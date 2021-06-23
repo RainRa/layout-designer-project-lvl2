@@ -1,6 +1,8 @@
 .footer-nav {
   padding: 62px 0 71px;
 
+  font-size: 16px;
+
   @include for-tablet-up {
     padding: 44px 0 51px;
   }
@@ -17,8 +19,6 @@
   }
 
   & .footer-nav-link {
-    display: block;
-
     font-size: 16px;
 
     & a:hover {
