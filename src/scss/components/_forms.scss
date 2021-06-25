@@ -10,22 +10,22 @@
   @include for-tablet-up {
     max-width: 570px;
   }
+}
 
-  & .acces-input {
-    width: 100%;
-    margin-bottom: 24px;
+.acces-input {
+  width: 100%;
+  margin-bottom: 24px;
 
+  color: $color-white;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+
+  &::placeholder {
     color: $color-white;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 16px;
+  }
 
-    &::placeholder {
-      color: $color-white;
-    }
-
-    @include for-tablet-up {
-      max-width: 270px;
-    }
+  @include for-tablet-up {
+    max-width: 270px;
   }
 }

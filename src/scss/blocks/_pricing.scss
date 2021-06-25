@@ -17,30 +17,30 @@
   @include for-dekstop-up {
     flex-wrap: nowrap;
   }
+}
 
-  & .subscription-item {
-    min-width: 300px;
+.subscription-item {
+  min-width: 300px;
 
-    @include for-tablet-up {
-      flex: 1 0 0;
-      margin-bottom: 28px;
-    }
-
-    @include for-dekstop-up {
-      flex: 1 0 0;
-    }
+  @include for-tablet-up {
+    flex: 1 0 0;
+    margin-bottom: 28px;
   }
 
-  & .card {
-    padding: 16px 30px 62px 30px;
+  @include for-dekstop-up {
+    flex: 1 0 0;
+  }
+}
 
-    border-radius: 16px;
+.card {
+  padding: 16px 30px 62px 30px;
 
-    text-align: center;
+  border-radius: 16px;
 
-    @include for-tablet-up {
-      padding: 24px 30px 65px 30px;
-    }
+  text-align: center;
+
+  @include for-tablet-up {
+    padding: 24px 30px 65px 30px;
   }
 }
 

@@ -9,18 +9,6 @@
 .logo {
   font-weight: bold;
 
-  & .logo-icon {
-    width: 24px;
-    height: 24px;
-  }
-
-  & .logo-title {
-    height: 13px;
-
-    font-size: 11px;
-    line-height: 1;
-  }
-
   @include for-tablet-up {
     flex: 1 1 135px;
     margin-bottom: 21px;
@@ -33,6 +21,18 @@
   @include for-tablet-xl-up {
     margin-bottom: 0;
   }
+}
+
+.logo-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.logo-title {
+  height: 13px;
+
+  font-size: 11px;
+  line-height: 1;
 }
 
 .nav {
@@ -65,14 +65,14 @@
     flex-direction: row;
   }
 
-  & a:hover {
+  &:hover {
     color: $color-white;
   }
+}
 
-  & .nav-link {
-    @include for-tablet-up {
-      width: max-content;
-      margin-right: 24px;
-    }
+.nav-link {
+  @include for-tablet-up {
+    width: max-content;
+    margin-right: 24px;
   }
 }
