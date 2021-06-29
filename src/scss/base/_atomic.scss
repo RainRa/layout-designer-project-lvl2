@@ -50,8 +50,8 @@
   white-space: nowrap;
 }
 
-.border-top-1 {
-  border-top: 1px solid $color-gray;
+.border-top-1px {
+  border-top: 1px solid;
 }
 
 // ADAPTIVE MARGINS AND PADDINGS
@@ -64,7 +64,7 @@
   }
 }
 
-.mt-50-tablet {
+.mt-tablet-25 {
   margin-top: 25px;
 
   @include for-tablet-up {
@@ -77,6 +77,14 @@
     @include for-tablet-up {
       margin-bottom: 0;
     }
+  }
+}
+
+.mb-dekstop-16 {
+  margin-bottom: 16px;
+
+  @include for-dekstop-up {
+    margin-bottom: 32px;
   }
 }
 

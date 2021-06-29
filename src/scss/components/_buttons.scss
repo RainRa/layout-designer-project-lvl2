@@ -1,6 +1,5 @@
 .btn {
   padding: 20px 30px;
-  border: none;
   border-radius: 5px;
 
   cursor: pointer;
@@ -17,7 +16,7 @@
 }
 
 .btn-sm {
-  max-width: 135px;
+  margin-right: auto;
   padding: 16px 30px;
 
   border: 1px;
@@ -33,9 +32,10 @@
 }
 
 .btn-round {
-  max-width: 130px;
+  margin-right: auto;
   padding: 16px 40px;
   border-radius: 32px;
+  border: none;
 
   line-height: 1.5;
 }
@@ -58,10 +58,6 @@
   line-height: 1.5;
 
   background-color: transparent;
-}
-
-.btn-dark-grey {
-  color: $color-dark-gray;
 }
 
 .btn-purple {

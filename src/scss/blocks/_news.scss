@@ -1,18 +1,15 @@
-.news-inner {
-  @include for-tablet-up {
-    padding: 0 25px;
-  }
-}
+
 
 .news {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  gap: 50px;
 
   @include for-tablet-up {
     flex-direction: row;
-    margin: 0 -25px;
-  }
+    flex-wrap: nowrap;
+    }
 }
 
 .news-img {
