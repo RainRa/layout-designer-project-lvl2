@@ -854,16 +854,6 @@ img {
   }
 }
 
-.news-img {
-  margin-bottom: 50px;
-}
-
-@media (min-width: 640px) {
-  .news-img {
-    margin-bottom: 65px;
-  }
-}
-
 .news-title {
   margin-bottom: 16px;
   font-weight: 400;
