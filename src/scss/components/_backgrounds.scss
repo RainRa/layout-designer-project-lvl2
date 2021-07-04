@@ -1,0 +1,49 @@
+.bg-banner-artist {
+  background-image: url("../images/Morten%20Harket.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-banner-acces {
+  background-image: url("../images/banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-gradient {
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+}
+
+.bg-free {
+  background-image: url(../images/subscribe_1.png);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-standart {
+  background-image: url(../images/subscribe_2.png);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-premium {
+  background-image: url(../images/subscribe_3.png);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-black {
+  background-color: $color-black;
+}
+
+.bg-dark {
+  background-color: $color-dark;
+}

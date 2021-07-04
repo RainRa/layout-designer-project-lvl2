@@ -7,6 +7,8 @@
 }
 
 .logo {
+  margin-bottom: 16px;
+
   font-weight: bold;
 
   @include for-tablet-up {
@@ -36,7 +38,7 @@
 }
 
 .nav {
-  margin-bottom: 17px;
+  margin-bottom: 18px;
 
   @include for-tablet-up {
     flex: 12 1 auto;
@@ -64,15 +66,42 @@
   @include for-tablet-up {
     flex-direction: row;
   }
-
-  &:hover {
-    color: $color-white;
-  }
 }
 
 .nav-link {
   @include for-tablet-up {
     width: max-content;
     margin-right: 24px;
+  }
+
+  &:hover {
+    color: $color-white;
+  }
+}
+
+.header-search {
+  width: 100%;
+
+  @include for-tablet-up {
+    flex: 1 1 211px;
+    margin-bottom: 21px;
+  }
+
+  @include for-tablet-xl-up {
+    margin-bottom: 0;
+  }
+}
+
+.acces-form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 374px;
+  margin: 0 auto;
+
+  @include for-tablet-up {
+    max-width: 570px;
   }
 }

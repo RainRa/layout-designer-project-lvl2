@@ -6,8 +6,16 @@
   min-width: 200px;
 }
 
+.lh-normal {
+  line-height: normal;
+}
+
 .ml-auto {
   margin-left: auto;
+}
+
+.mr-auto {
+  margin-right: auto;
 }
 
 .d-flex {
@@ -52,6 +60,14 @@
 
 .border-top-1px {
   border-top: 1px solid;
+}
+
+.border-1px {
+  border-width: 1px;
+}
+
+.border-2px {
+  border-width: 2px;
 }
 
 .border-none {
@@ -224,13 +240,4 @@
 
 .color-orange {
   color: $color-orange;
-}
-
-// BACKGROUNDS
-.bg-black {
-  background-color: $color-black;
-}
-
-.bg-dark {
-  background-color: $color-dark;
 }
