@@ -18,18 +18,18 @@
 
 <body class="bg-black">
 
+  <!-- HEADER -->
   <header class="pt-25 header">
-    <!-- HEADER -->
     <div class="container d-flex align-items-center flex-w-wrap uppercase">
 
-      <div class="logo w-100 mb-16 d-flex align-items-center">
+      <div class="logo w-100 d-flex align-items-center">
         <img class="logo-icon mr-16" src="./images/logo.svg" alt="Логотип — нота в круге">
         <span class="logo-title">music box</span>
       </div>
 
       <!-- NAV -->
       <nav class="nav">
-        <ul class="nav-list">
+        <ul class="nav-list d-flex flex-w-wrap">
           <li class="nav-link"><a class="color-d-gray no-link-decoration" href="./index.html">Главная</a></li>
           <li class="nav-link"><a class="color-d-gray no-link-decoration" href="./artist.html">Каталог</a></li>
           <li class="nav-link"><a class="color-d-gray no-link-decoration" href="./artist.html">Исполнители</a></li>
@@ -38,8 +38,9 @@
       </nav>
 
       <!-- SEARCH BOX  -->
-      <div class="search">
-        <input class="input-rounded bg-dark uppercase" type="text" placeholder="ПОИСК...">
+      <div class="header-search">
+        <input id="search-box" class="input input-rounded input-sm bg-dark uppercase" type="search" placeholder="ПОИСК...">
+        <label for="search-box">ПОИСК...</label>
       </div>
     </div>
   </header>
@@ -49,7 +50,8 @@
       <h1 class="h1 mt-tablet-25 mb-16">Morten Harket</h1>
       <p class="ts-16 mb-48">24 875 поклонников</p>
       <div class="d-flex flex-w-wrap">
-        <button class="mb-24 mr-24 min-width-200 border-none d-flex align-items-center btn btn-purple ts-small uppercase">
+        <button
+          class="mb-24 mr-24 min-width-200 border-none d-flex align-items-center btn btn-purple ts-small uppercase">
           <svg class="mr-16" width="20" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" fill="#fff">
             <path
               d="M256 0C114.833 0 0 114.844 0 256s114.833 256 256 256 256-114.844 256-256S397.167 0 256 0zm0 490.667C126.604 490.667 21.333 385.396 21.333 256S126.604 21.333 256 21.333 490.667 126.604 490.667 256 385.396 490.667 256 490.667z" />
@@ -256,8 +258,7 @@
           <div class="col-4 col-4-offset">
             <h2 class="h4 mb-21 color-white uppercase">Подписывайтесь</h2>
             <div class="d-flex">
-              <a class="footer-nav-link mr-24 no-li30nk-decoration" href="#"><img src="./images/Google+.png"
-                  alt=""></a>
+              <a class="footer-nav-link mr-24 no-li30nk-decoration" href="#"><img src="./images/Google+.png" alt=""></a>
               <a class="footer-nav-link mr-24 color-gray no-link-decoration" href="#"><img src="./images/Twitter.png"
                   alt=""></a>
               <a class="footer-nav-link mr-24 color-gray no-link-decoration" href="#"><img src="./images/Facebook.png"
@@ -270,7 +271,7 @@
       </nav>
     </div>
     <div class="border-top-1px">
-      <nav class="container footer-nav-second pt-40 pb-50">
+      <nav class="container footer-nav-second">
         <div class="footer-menu-second">
           <a class="footer-menu-second-link mr-15 no-link-decoration" href="#">Магазин</a>
           <a class="footer-menu-second-link mr-15 no-link-decoration" href="#">Обслуживание</a>
