@@ -719,12 +719,12 @@ label[for="search-box"] {
   border: none;
 }
 
-.mt-mobile-50 {
-  margin-top: 50px;
+.mt-mobile-49 {
+  margin-top: 49px;
 }
 
 @media (min-width: 640px) {
-  .mt-mobile-50 {
+  .mt-mobile-49 {
     margin-top: 0;
   }
 }
