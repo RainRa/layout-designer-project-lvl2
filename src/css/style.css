@@ -457,7 +457,7 @@ img {
   }
 }
 
-#search-box {
+label[for="search-box"] {
   visibility: hidden;
 }
 
