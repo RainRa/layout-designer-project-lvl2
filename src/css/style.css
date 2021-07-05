@@ -458,6 +458,8 @@ img {
 }
 
 label[for="search-box"] {
+  display: block;
+  height: 0;
   visibility: hidden;
 }
 

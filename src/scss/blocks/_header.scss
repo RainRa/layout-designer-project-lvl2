@@ -105,6 +105,10 @@
     max-width: 570px;
   }
 }
+
 label[for="search-box"] {
+  display: block;
+  height: 0;
+
   visibility: hidden;
 }
