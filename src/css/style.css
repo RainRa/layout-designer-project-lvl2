@@ -457,6 +457,10 @@ img {
   }
 }
 
+.acces-form-item {
+  line-height: 16px;
+}
+
 label[for="search-box"] {
   display: block;
   height: 0;
